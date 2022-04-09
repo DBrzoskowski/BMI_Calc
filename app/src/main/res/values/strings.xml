@@ -1,6 +1,22 @@
 <resources>
-   <string name="app_name">BMI Calculator</string>
+   <string name="app_name">PAMO Health</string>
+
+   <string name="main_menu">Main</string>
+
+   <string name="get_receip">Food Recommendation</string>
+
+   <string name="bmi_calculator">BMI calculator</string>
+   <string name="calories_calculator">Calories calculator</string>
+   <string name="bim_name">BMI Calculator</string>
+
    <string name="enter_weight">Body weight</string>
    <string name="enter_height">Body height</string>
    <string name="bmi">Your BMI</string>
+
+   <string name="female_btn">Female</string>
+   <string name="male_btn">Male</string>
+   <string name="calculate_calories_btn">Calculate</string>
+   <string name="weight_hint">Your Weight (Kilograms)</string>
+   <string name="height_hint">Your Height (Meters)</string>
+   <string name="age_hint">Your Age (Years)</string>
 </resources>
