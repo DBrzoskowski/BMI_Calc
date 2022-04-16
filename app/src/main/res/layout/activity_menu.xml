@@ -11,8 +11,8 @@
         android:id="@+id/bmiCalculatorButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="23dp"
-        android:layout_marginBottom="26dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"
         android:backgroundTint="@color/hearth_color"
         android:text="@string/bmi_calculator"
         app:layout_constraintBottom_toTopOf="@+id/caloriesCalculator"
@@ -22,7 +22,7 @@
         android:id="@+id/caloriesCalculator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="233dp"
+        android:layout_marginTop="224dp"
         android:backgroundTint="@color/hearth_color"
         android:text="@string/calories_calculator"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,6 +38,19 @@
         android:text="@string/get_receip"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/caloriesCalculator" />
+        app:layout_constraintTop_toBottomOf="@+id/caloriesCalculator"
+        tools:ignore="DuplicateClickableBoundsCheck" />
+
+    <Button
+        android:id="@+id/goQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/hearth_color"
+        android:text="@string/quiz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/getReceip" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
